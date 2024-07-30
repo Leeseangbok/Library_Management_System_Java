@@ -1,9 +1,9 @@
-package src.main.java.com.mainInterface;
+package src.main;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
-import src.main.java.com.database.DataBase;
+import main.java.com.database.DBconnection;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -174,7 +174,7 @@ public class registerPage extends JPanel {
 
     private void saveCustomerToDatabase(String customerName, String customerPhoneNumber) throws SQLException {
         String query = "INSERT INTO customer (customer_name, customer_phone_number) VALUES (?, ?)";
-        try (Connection connection = DataBase.getConnection();
+        try (Connection connection = DBconnection.getConnection();
             PreparedStatement statement = connection.prepareStatement(query)) {
             statement.setString(1, customerName);
             statement.setString(2, customerPhoneNumber);

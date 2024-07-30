@@ -1,9 +1,10 @@
-package src.main.java.com.mainInterface;
+package src.main;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableColumn;
-import src.main.java.com.database.DBconnection;
+
+import main.java.com.database.DBconnection;
 
 import java.awt.*;
 import java.sql.Connection;
@@ -14,11 +15,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class bookPage extends JDialog {
-    private int idWidth = 5;
-    private int nameWidth = 30;
-    private int authorWidth = 30;
-    private int priceWidth = 10;
-    private List<String[]> selectedBooks = new ArrayList<>();
+    private final int idWidth = 5;
+    private final int nameWidth = 30;
+    private final int authorWidth = 30;
+    private final int priceWidth = 10;
+    private final List<String[]> selectedBooks = new ArrayList<>();
     private JTable bookTable;
     private DefaultTableModel tableModel;
     private JTextField searchField;
@@ -97,7 +98,7 @@ public class bookPage extends JDialog {
     // Fetch book list from the database
     private List<String[]> fetchBookListFromDatabase() {
         List<String[]> bookList = new ArrayList<>();
-        try (Connection connection = database.getConnection();
+        try (Connection connection = DBconnection.getConnection();
              PreparedStatement statement = connection.prepareStatement("SELECT * FROM book");
              ResultSet rs = statement.executeQuery()) {
             while (rs.next()) {

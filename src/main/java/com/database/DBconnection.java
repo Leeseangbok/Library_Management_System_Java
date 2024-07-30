@@ -1,10 +1,10 @@
-package src.main.java.com.database;
+package main.java.com.database;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class DataBase {
+public class DBconnection {
     private static final String URL = "jdbc:mysql://Localhost:3306/majorassignment";
     private static final String USER = "root";
     private static final String PASSWORD = "tong@123";
