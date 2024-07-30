@@ -1,6 +1,5 @@
 package src.main.java.com.Login;
 
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -8,6 +7,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import javax.swing.*;
 import main.java.com.database.DBconnection;
 
 public class loginInterFace extends JDialog {
@@ -77,7 +77,7 @@ public class loginInterFace extends JDialog {
                 succeeded = true;
                 dispose();
             } else {
-                JOptionPane.showMessageDialog(loginInterFace.this, "Invalid username or password", "Login", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(loginInterFace.this, "Input the correct information, dumbass", "Login", JOptionPane.ERROR_MESSAGE);
                 usernameField.setText("");
                 passwordField.setText("");
                 succeeded = false;
