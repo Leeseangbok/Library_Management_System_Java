@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.borrowForm">
+  <grid id="27dc6" binding="borrowPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="5" y="35" width="928" height="724"/>
+    </constraints>
+    <properties>
+      <background color="-792861"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="67b82" binding="InputPanel" layout-manager="GridLayoutManager" row-count="14" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1297"/>
+          <font name="Consolas" size="12" style="0"/>
+          <foreground color="-16777216"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fb5b5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Customer Name:"/>
+            </properties>
+          </component>
+          <component id="57020" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="9" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Return Date:"/>
+            </properties>
+          </component>
+          <component id="ab083" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Total:"/>
+            </properties>
+          </component>
+          <component id="66138" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Books:"/>
+            </properties>
+          </component>
+          <component id="3dc6f" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Phone Number:"/>
+            </properties>
+          </component>
+          <component id="1b653" class="javax.swing.JTextField" binding="customerNameField">
+            <constraints>
+              <grid row="4" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="600" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <component id="45358" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Borrow Date:"/>
+            </properties>
+          </component>
+          <grid id="9095c" binding="borrowDatePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="600" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <grid id="dc3c" binding="returnDatePanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="9" column="3" row-span="1" col-span="3" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                <preferred-size width="600" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="a2e51" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="REGISTER BORROW BOOKS"/>
+            </properties>
+          </component>
+          <vspacer id="22b4f">
+            <constraints>
+              <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <hspacer id="ca8f0">
+            <constraints>
+              <grid row="5" column="6" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="10" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <hspacer id="d28b1">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="10" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="a66fd">
+            <constraints>
+              <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="30"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <hspacer id="51ac2">
+            <constraints>
+              <grid row="7" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="4c524" class="javax.swing.JTextField" binding="phoneField">
+            <constraints>
+              <grid row="5" column="3" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="600" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <vspacer id="b1e09">
+            <constraints>
+              <grid row="11" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="f642f" class="javax.swing.JButton" binding="registerButton" default-binding="true">
+            <constraints>
+              <grid row="12" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1197159"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Register"/>
+            </properties>
+          </component>
+          <component id="b7743" class="javax.swing.JButton" binding="cancelButton" default-binding="true">
+            <constraints>
+              <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-1197159"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Cancel"/>
+            </properties>
+          </component>
+          <hspacer id="8ae27">
+            <constraints>
+              <grid row="12" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="24a9d">
+            <constraints>
+              <grid row="13" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="10"/>
+              </grid>
+            </constraints>
+          </vspacer>
+          <component id="d4692" class="javax.swing.JTextArea" binding="totalArea">
+            <constraints>
+              <grid row="7" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+            </properties>
+          </component>
+          <grid id="9b431" binding="bookPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="6" column="3" row-span="1" col-span="3" vsize-policy="3" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="500" height="-1"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-792861"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="de84e" class="javax.swing.JTable" binding="bookTable">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <background color="-266517"/>
+                  <font name="Consolas" size="10" style="0"/>
+                  <foreground color="-16777216"/>
+                  <preferredScrollableViewportSize width="500" height="400"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <component id="e0a1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="10" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value="Borrow ID:"/>
+            </properties>
+          </component>
+          <hspacer id="9626b">
+            <constraints>
+              <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="a539b" class="javax.swing.JTextArea" binding="borrowIdAREA">
+            <constraints>
+              <grid row="10" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="100" height="30"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-266517"/>
+              <font name="Consolas" size="10" style="0"/>
+              <foreground color="-16777216"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <hspacer id="a690a">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="6" vsize-policy="1" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="750" height="-1"/>
+              </grid>
+            </constraints>
+          </hspacer>
+          <vspacer id="266b1">
+            <constraints>
+              <grid row="0" column="0" row-span="14" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="720"/>
+              </grid>
+            </constraints>
+          </vspacer>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
